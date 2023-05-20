@@ -22,7 +22,6 @@ guessButton.addEventListener('click', () => {
         if(playerGuess.value) {
             previous = playerGuess.value;
             guessedNumber = Number(playerGuess.value);
-            console.log(guessedNumber);
             chances--;
             chancesLeft.innerText = chances;
 
