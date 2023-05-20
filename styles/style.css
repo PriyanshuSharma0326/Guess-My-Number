@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Righteous', cursive;
+    background-color: #D34876;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-container {
+    width: 22rem;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.game-title {
+    font-size: 2rem;
+}
+
+.game-description {
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.game-info {
+    text-align: center;
+    color: black;
+}
+
+.game-info span {
+    color: green;
+}
+
+.game-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.game-input input {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    width: 5rem;
+    height: 4rem;
+    outline: none;
+
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.game-announcement {
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.start-button, .guess-button, .restart-button {
+    font-size: 1rem;
+    font-family: 'Righteous', cursive;
+    background-color: #D34876;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.start-button:hover, .guess-button:hover, .restart-button:hover {
+    cursor: pointer;
+}
