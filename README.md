@@ -1,6 +1,6 @@
 # GUESS-MY-NUMBER
 
-![Design preview for Guess-My-Number Game](./design/desktop-design.jpg)
+![Design preview for Guess-My-Number Game](./design/desktop-design.png)
 
 ## Welcome! 👋
 
